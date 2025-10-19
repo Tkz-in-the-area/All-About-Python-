@@ -24,7 +24,7 @@ def total_sales(price, num_tickets):
  # Call the function with two values / Returned with Two Decimal places (USD)
 total_sales(15.99, 1001)
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
 # Define function / Marketing Wants to Reward Regular Customers with [Discount/Voucher/Promo-Code=coupon]
 def send_email(num_visits, visits_email):
     if num_visits >= visits_email:
@@ -50,4 +50,5 @@ send_email(num_visits=5, visits_email=5, visits_coupon=8)   # Should print 'Send
 send_email(num_visits=6, visits_email=5, visits_coupon=8)   # Should print 'Send email only.'
 send_email(num_visits=8, visits_email=5, visits_coupon=8)   # Should print 'Send email with coupon.'
 send_email(num_visits=10, visits_email=5, visits_coupon=8)  # Should print 'Send email with coupon.'
+
 
