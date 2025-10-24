@@ -1,4 +1,4 @@
-100 largest companies by revenue in 2025 (mostly for fiscal year 2024) / Data Wrangling Project
+100 largest companies by revenue in 2025 (mostly for fiscal year 2024) / Web Scraping Project
 
 # install packages [BeautifulSoup: parse + extract data from hmtl content]
 from bs4 import BeautifulSoup
@@ -93,6 +93,7 @@ for row in column_data[1:]:
  # Dataframe to Csv example :
 df.to_csv(r'C:\Users\Tashenkanaye\Downloads\Companies.csv', index = False)
     
+
 
 
 
